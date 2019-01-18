@@ -1,4 +1,5 @@
-var rp = require('request-promise');
+'use strict';
+const rp = require('request-promise');
 
 const getUserDetails = (req, res) => {
     const username = req.params.username;

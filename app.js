@@ -1,3 +1,4 @@
+'use strict';
 //module externals
 const createError = require('http-errors'),
     express = require('express'),
